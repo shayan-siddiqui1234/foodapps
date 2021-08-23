@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style></style>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyA_GuPHFypM6AewBElYJX7pEobB2EfbMIo",
+        authDomain: "loginproject-a4272.firebaseapp.com",
+        projectId: "loginproject-a4272",
+        storageBucket: "loginproject-a4272.appspot.com",
+        messagingSenderId: "159609145807",
+        appId: "1:159609145807:web:06c720c839e31deb3b2aba"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+<body background="image/bbb.jpg" style="background-repeat:no-repeat; background-size: 40%;">
+  <div class="log-form">
+    
+   <form>
+   Item    <input  id="item" type="text" title="username" placeholder="chicken" /><br>
+    price   <input id="price" type="number" title="username" placeholder="price" /><br>
+      <button onclick="done()">Confirm Order</button>
+      <a class="forgot" href="customer.html">otherwise back on App</a>
+    </form>
+
+    
+
+  </div><!--end log form -->
+<script src="customer.js"></script>
+</body>
+</html>

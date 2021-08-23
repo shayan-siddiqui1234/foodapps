@@ -1,0 +1,126 @@
+[debug] [2021-08-23T18:32:27.420Z] ----------------------------------------------------------------------
+[debug] [2021-08-23T18:32:27.424Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\xpeart\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-08-23T18:32:27.425Z] CLI Version:   9.5.0
+[debug] [2021-08-23T18:32:27.425Z] Platform:      win32
+[debug] [2021-08-23T18:32:27.425Z] Node Version:  v14.17.3
+[debug] [2021-08-23T18:32:27.427Z] Time:          Mon Aug 23 2021 23:32:27 GMT+0500 (Pakistan Standard Time)
+[debug] [2021-08-23T18:32:27.427Z] ----------------------------------------------------------------------
+[debug] [2021-08-23T18:32:27.427Z] 
+[debug] [2021-08-23T18:32:27.431Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2021-08-23T18:32:27.468Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-08-23T18:32:27.469Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\xpeart
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[debug] [2021-08-23T18:32:28.926Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2021-08-23T18:32:28.926Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2021-08-23T18:33:30.778Z] ----------------------------------------------------------------------
+[debug] [2021-08-23T18:33:30.785Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\xpeart\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-08-23T18:33:30.786Z] CLI Version:   9.5.0
+[debug] [2021-08-23T18:33:30.786Z] Platform:      win32
+[debug] [2021-08-23T18:33:30.787Z] Node Version:  v14.17.3
+[debug] [2021-08-23T18:33:30.789Z] Time:          Mon Aug 23 2021 23:33:30 GMT+0500 (Pakistan Standard Time)
+[debug] [2021-08-23T18:33:30.790Z] ----------------------------------------------------------------------
+[debug] [2021-08-23T18:33:30.790Z] 
+[debug] [2021-08-23T18:33:30.815Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-08-23T18:33:30.818Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\xpeart
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using assignment-6--dawn-websi-5a493. 
+[debug] [2021-08-23T18:34:03.723Z] > refreshing access token with scopes: []
+[debug] [2021-08-23T18:34:03.724Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-08-23T18:34:04.159Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Mon, 23 Aug 2021 18:28:25 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-08-23T18:34:04.236Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/assignment-6--dawn-websi-5a493 [none]
+[debug] [2021-08-23T18:34:04.865Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/assignment-6--dawn-websi-5a493 403
+[debug] [2021-08-23T18:34:04.866Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/assignment-6--dawn-websi-5a493 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-08-23T18:34:04.867Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-08-23T18:34:05.214Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\xpeart\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\xpeart\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:23)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async Client.request (C:\Users\xpeart\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\xpeart\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:289:21)
+    at async Object.doSetup [as project] (C:\Users\xpeart\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:77:27)
+    at async init (C:\Users\xpeart\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project assignment-6--dawn-websi-5a493. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-08-23T18:35:50.863Z] ----------------------------------------------------------------------
+[debug] [2021-08-23T18:35:50.866Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\xpeart\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-08-23T18:35:50.867Z] CLI Version:   9.5.0
+[debug] [2021-08-23T18:35:50.867Z] Platform:      win32
+[debug] [2021-08-23T18:35:50.868Z] Node Version:  v14.17.3
+[debug] [2021-08-23T18:35:50.870Z] Time:          Mon Aug 23 2021 23:35:50 GMT+0500 (Pakistan Standard Time)
+[debug] [2021-08-23T18:35:50.870Z] ----------------------------------------------------------------------
+[debug] [2021-08-23T18:35:50.870Z] 
+[debug] [2021-08-23T18:35:50.883Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-08-23T18:35:50.884Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\xpeart
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using assignment-6--dawn-websi-5a493. 
+[debug] [2021-08-23T18:36:16.602Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/assignment-6--dawn-websi-5a493 [none]
+[debug] [2021-08-23T18:36:17.330Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/assignment-6--dawn-websi-5a493 403
+[debug] [2021-08-23T18:36:17.331Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/assignment-6--dawn-websi-5a493 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-08-23T18:36:17.332Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-08-23T18:36:17.665Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\xpeart\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\xpeart\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:23)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async Client.request (C:\Users\xpeart\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\xpeart\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:289:21)
+    at async Object.doSetup [as project] (C:\Users\xpeart\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:77:27)
+    at async init (C:\Users\xpeart\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project assignment-6--dawn-websi-5a493. Please make sure the project exists and your account has permission to access it.
